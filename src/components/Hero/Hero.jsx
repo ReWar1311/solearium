@@ -1,4 +1,4 @@
-import "./hero.css";
+import "./Hero.css";
 import InfoCard from "../InfoCard/InfoCard";
 
 const Hero = () => {
