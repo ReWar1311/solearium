@@ -1,0 +1,122 @@
+  .login-container {
+    background: #ffffff;
+    width: 1000px;
+    max-width: 95vw;
+    height: 500px;
+    max-height: 95vh;
+    margin: 60px auto;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    padding: 48px 40px;
+    position: relative;
+    min-height: 340px;
+  }
+  
+  .login-left {
+    flex: 1.1;
+  }
+  
+  .logo {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+  }
+  
+  .logo span {
+    color: var(--secondary-color);
+    font-weight: 400;
+  }
+  
+  .login-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #595959;
+    font-family: inherit;
+  }
+  
+  .form-group {
+    margin-bottom: 28px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 16px;
+    color: #7a6c5d;
+    margin-bottom: 8px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-family: inherit;
+  }
+  
+  .form-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #bdbdbd;
+    background: transparent;
+    font-size: 17px;
+    padding: 8px 0;
+    outline: none;
+    color: #595959;
+    font-family: inherit;
+    transition: border-color 0.2s;
+  }
+  
+  .form-input:focus {
+    border-bottom: 1.5px solid var(--primary-color);
+  }
+  
+  .login-btn {
+    margin-top: 10px;
+    padding: 7px 26px;
+    background: #e0e0e0;
+    color: #595959;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+    /* box-shadow: 0 2px 4px var(--secondary-color); */
+    transition: background 0.2s;
+  }
+  
+  .login-btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+  }
+  
+  .login-right {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-right img {
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin-left: 30px;
+    filter: drop-shadow(0 6px 18px rgba(0,0,0,0.13));
+  }
+  
+  @media (max-width: 900px) {
+    .login-container {
+      flex-direction: column;
+      padding: 32px 16px;
+      min-height: 0;
+    }
+    .login-right {
+      margin-top: 24px;
+    }
+    .login-right img {
+      margin-left: 0;
+      max-width: 150px;
+    }
+  }
+  
