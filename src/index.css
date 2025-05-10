@@ -14,8 +14,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  
   min-width: 100vw;
   min-height: 100vh;
 
+}
+html{
+  overflow-x: hidden;
 }

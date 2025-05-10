@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section brand">
-          <h3>Solerium</h3>
+          <h3>Sole-arium</h3>
           <p>Elevating your everyday steps with comfort and style.</p>
           <div className="social-icons">
             <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Solerium. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Sole-arium. All rights reserved.</p>
       </div>
     </footer>
   );

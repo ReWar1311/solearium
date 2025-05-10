@@ -6,7 +6,7 @@ const Login = () => {
     <div className="login-container">
       <div className="login-left">
         <div className="logo">
-          Sole-<span>arium</span>
+          Sole-arium
         </div>
         <div className="login-title">Login</div>
         <form>

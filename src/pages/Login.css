@@ -8,7 +8,7 @@
     border-radius: 36px;
     display: flex;
     align-items: center;
-    padding: 48px 40px;
+    padding: 28px 40px;
     position: relative;
     min-height: 340px;
   }
@@ -20,7 +20,7 @@
   .logo {
     color: var(--secondary-color);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 0.5px;
     margin-bottom: 26px;
   }

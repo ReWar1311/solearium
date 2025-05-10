@@ -4,7 +4,7 @@ import './InfoCard.css';
 const InfoCard = ({ icon, title, description, className }) => {
   return (
     <div className={`info-card ${className || ''}`}>
-      <div className="info-card-icon">
+      <div className="info-card-icon" >
         {icon}
       </div>
       <div className="info-card-content">
